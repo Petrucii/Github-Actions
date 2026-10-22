@@ -19,4 +19,4 @@ def test_somar():
 def test_multiplicar():
     resposta = client.get("/multiplicar/2/2")
     assert resposta.status_code == 200
-    assert resposta.json() == {"resultado": 5}
+    assert resposta.json() == {"resultado": 4}
